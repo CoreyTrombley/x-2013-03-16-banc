@@ -1,7 +1,8 @@
 class AddBanksTable < ActiveRecord::Migration
-  def up
-  end
-
-  def down
+  def change
+    create_table :banks do |t|
+      t.string :name
+      t.timestamps
+    end
   end
 end
