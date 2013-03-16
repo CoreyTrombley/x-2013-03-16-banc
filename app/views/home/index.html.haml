@@ -1,5 +1,24 @@
 %h1 Welcome to Banc.
 .notes
+  .rgr
   %h4 Red, Green, Refactor.
   %p Term for writing a test, making it pass, then refactoring your code.
   %p Test, Pass, Rewrite.
+  %h4 Class method vs. instance method
+  %h5 Class Method
+  %p def math.pi
+  %p 3.14
+  %p end
+  %br
+  %p To call the class:
+  %p math.pi
+  %p #-- 3.14
+  %h5 Insatnce Method
+  %p def sq(x)
+  %p x*x
+  %p end
+  %p To call the insatce
+  %p m.sq(3)
+  %p #-- 9
+  %h4 Running the Test
+  %p rspec
